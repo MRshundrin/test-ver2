@@ -123,6 +123,7 @@ $resultButton.addEventListener("click", () => {
 	$percentList.hidden = false;
 	$numberList.hidden = false;
 	$namesList.hidden = false;
+	$resultButton.hidden = true;
 	showResult (arr, library, doubleDigitLibrary, threeDigitLibrary);	
 });
 
