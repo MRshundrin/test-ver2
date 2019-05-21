@@ -1,0 +1,23 @@
+
+#main_part {
+	display: flex;
+}
+
+ul {
+	list-style-type: none;
+	padding: 2px;
+}
+
+ul li {
+	width: 100%;
+	border: 1px solid black;
+}
+
+div {
+	width: 100%;
+}
+
+#random_number {
+	font-size: 5px;
+	word-wrap: break-word;
+}
