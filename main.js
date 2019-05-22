@@ -50,12 +50,12 @@ function createLibrary(array, library1, library2, library3) {
 		createLibraryElement(library1, item); 
 
 		if (array.length - i > 2) { /*для двузнаных комбинаций с текущим элементом*/
-			let two = [item, array[i+1]].join('');
+			let two = array.slice(i, i+2).join('');
 			createLibraryElement(library2, two);
 		};
 
 		if (array.length - i > 3) { /*для трёхзначных комбинаций с текущим элементом*/
-			let three = [item, array[i+1], array[i+2]].join(''); 
+			let three = array.slice(i, i+3).join(''); 
 			createLibraryElement(library3, three);
 		};
 	});	
